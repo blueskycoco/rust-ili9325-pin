@@ -1,0 +1,1 @@
+/home/fmin/work/project/rust/parallel-stm32-gpio/target/thumbv7em-none-eabihf/debug/libdisplay_interface_parallel_stm32_gpio.rlib: /home/fmin/work/project/rust/display-interface/src/lib.rs /home/fmin/work/project/rust/display-interface/src/prelude.rs /home/fmin/work/project/rust/parallel-stm32-gpio/src/lib.rs

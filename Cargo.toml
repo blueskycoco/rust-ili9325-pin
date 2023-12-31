@@ -1,0 +1,22 @@
+[package]
+name = "display-interface-parallel-stm32-gpio"
+description = "Generic parallel GPIO interface for display interfaces"
+version = "0.7.0-alpha.1"
+authors = ["Daniel Egger <daniel@eggers-club.de>"]
+repository = "https://github.com/therealprof/display-interface"
+documentation = "https://docs.rs/display-interface-parallel-gpio"
+categories = ["no-std"]
+keywords = ["graphics", "display", "embedded"]
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+exclude = [".gitignore"]
+edition = "2018"
+
+[package.metadata.docs.rs]
+all-features = true
+
+[dependencies]
+embedded-hal = "0.2.5"
+stm32f4xx-hal = { version = "0.16.2", features = ["rt", "stm32f446"]}
+display-interface = { version = "0.5.0-alpha.1", path = "../display-interface" }
+cortex-m-semihosting = "0.5.0"
